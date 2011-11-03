@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/etex-pkg/etex.sty
+# catalog-date 2009-07-22 12:43:06 +0200
+# catalog-license other-free
+# catalog-version 2.0
 Name:		texlive-etex-pkg
 Version:	2.0
 Release:	1
@@ -39,6 +45,7 @@ make more sophisticated use of e-TeX's facilities.
 %files
 %{_texmfdistdir}/tex/latex/etex-pkg/etex.sty
 %doc %{_texmfdistdir}/doc/latex/etex-pkg/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,3 +56,5 @@ make more sophisticated use of e-TeX's facilities.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
