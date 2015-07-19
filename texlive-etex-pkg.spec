@@ -6,7 +6,7 @@
 # catalog-version 2.0
 Name:		texlive-etex-pkg
 Version:	2.0
-Release:	9
+Release:	10
 Summary:	E-TeX support package
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/etex-pkg/etex.sty
