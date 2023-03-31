@@ -1,6 +1,6 @@
 Name:		texlive-etex-pkg
 Version:	41784
-Release:	1
+Release:	2
 Summary:	E-TeX support package
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/etex-pkg/etex.sty
