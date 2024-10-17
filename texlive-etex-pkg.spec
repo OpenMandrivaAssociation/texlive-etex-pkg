@@ -3,7 +3,7 @@ Version:	41784
 Release:	2
 Summary:	E-TeX support package
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/etex-pkg/etex.sty
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/etex-pkg/etex.sty
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/etex-pkg.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/etex-pkg.doc.r%{version}.tar.xz
